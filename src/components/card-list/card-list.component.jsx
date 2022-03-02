@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
-import { Card } from '../card/card.component';
+import { Card } from "../card/card.component";
 
-import './card-list.styles.css';
+import "./card-list.styles.css";
 
 const CardList = ({ cards }) => (
-  <div className='card-list'>
+  <div className="card-list">
     {cards.map((card, idx) => (
       <Card key={card.id || idx} idx={idx} card={card} />
     ))}
