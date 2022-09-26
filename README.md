@@ -5,7 +5,7 @@ This is a practice app I made while I was learning React. It generates contact c
 
 In this application I used the following technologies:
 - React
-- Redux Sage
+- Redux Saga
 - Styled Components
 - RoboHash API
 - JSON Placeholder API
